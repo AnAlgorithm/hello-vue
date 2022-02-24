@@ -1,9 +1,17 @@
 <template>
   <div class="hello">
+  
     <h1>Hello Vue!</h1>
+    
     <p>
       My first Vue.js App!
     </p>
+    
+    <br>
+    
+    <button id="green">Click for a surprise!</button>
+    <button>Click if you DARE...</button>
+    
   </div>
  </template>
   
@@ -18,18 +26,31 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
+
+button {
+  background-color: #434c53; /*Nord3 - Polar Night*/
+}
+
+#green {
+  color: #a3be8c; /*Nord14 - Aurora*/
+}
+
 </style>
