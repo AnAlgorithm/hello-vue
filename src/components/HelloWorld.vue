@@ -47,10 +47,10 @@ a {
 
 button {
   background-color: #434c53; /*Nord3 - Polar Night*/
-  padding: 5px;
-  margin: 10px 0 0;
+  padding: 8px;
+  margin: 40px 0 0;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #green {
