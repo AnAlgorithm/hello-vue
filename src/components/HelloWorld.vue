@@ -47,10 +47,14 @@ a {
 
 button {
   background-color: #434c53; /*Nord3 - Polar Night*/
+  padding: 5px;
+  margin: 10px 0 0;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 #green {
-  color: #a3be8c; /*Nord14 - Aurora*/
+  color: #42b983;
 }
 
 </style>
