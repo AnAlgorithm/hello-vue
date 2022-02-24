@@ -49,6 +49,7 @@ button {
   background-color: #434c53; /*Nord3 - Polar Night*/
   padding: 8px;
   margin: 40px 0 0;
+  border: 1px solid #f2f2f2;
   border-radius: 5px;
   font-size: 18px;
 }
