@@ -16,7 +16,7 @@ export default {
 
 <style>
 body {
-  background-color: #2c3e50;
+  background-color: #2c3e50; /*Nord0 - Polar Night*/
 }
 
 #app {
@@ -24,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #eceff4;
+  color: #eceff4; /*Nord6 - Snow Storm*/
   margin-top: 60px;
 }
 </style>
