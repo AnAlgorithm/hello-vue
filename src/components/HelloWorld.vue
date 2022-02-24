@@ -59,7 +59,7 @@ button {
 }
 
 #red {
-  color: #ff0000;
+  color: #bf616a; /*Nord11 - Aurora*/
 }
 
 </style>
