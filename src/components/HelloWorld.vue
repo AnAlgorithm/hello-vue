@@ -10,7 +10,7 @@
     <br>
     
     <button id="green">Click for a surprise!</button>
-    <button>Click if you DARE...</button>
+    <button id="red">Click if you DARE...</button>
     
   </div>
  </template>
@@ -56,6 +56,10 @@ button {
 
 #green {
   color: #42b983;
+}
+
+#red {
+  color: #ff0000;
 }
 
 </style>
