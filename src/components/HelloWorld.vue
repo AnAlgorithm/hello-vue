@@ -65,6 +65,11 @@ button:hover {
   color: #42b983;
 }
 
+#green:active {
+  transition: rotateX(360deg);
+  transition-duration: 5s;
+}
+
 #dare {
   color: #bf616a; /*Nord11 - Aurora*/
 }
