@@ -12,6 +12,18 @@ export default {
     HelloWorld
   }
 }
+
+
+const btn = document.getElementById("red");
+btn.addEventListener("click", ()=>{
+
+    if(btn.value === "Click if you DARE..."){
+        btn.value = "Nothing Happened!";
+    } else{
+        btn.value= "Click if you DARE...";
+    }
+})
+
 </script>
 
 <style>
