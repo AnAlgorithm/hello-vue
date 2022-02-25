@@ -9,9 +9,21 @@
     
     <br>
     
-    <button id="green">Click for a surprise!</button>
+    <button id="green" onclick="startConfetti()">Click for a surprise!</button>
     <button id="red">Click if you DARE...</button>
     
+    <script>
+    const btn = document.getElementById("red");
+
+btn.addEventListener("click", ()=>{
+
+    if(btn.value === "Click if you DARE..."){
+        btn.value = "Nothing Happened!";
+    } else{
+        btn.value= "Click if you DARE...";
+    }
+})
+   </script> 
   </div>
  </template>
   
