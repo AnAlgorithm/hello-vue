@@ -12,9 +12,19 @@
     <button id="green">Click for a surprise!</button>
     <button id="red">Click if you DARE...</button>
     
-    <script>
-    const btn = document.getElementById("red");
+  </div>
+ </template>
+  
+<script>
 
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}
+
+const btn = document.getElementById("red");
 btn.addEventListener("click", ()=>{
 
     if(btn.value === "Click if you DARE..."){
@@ -23,17 +33,7 @@ btn.addEventListener("click", ()=>{
         btn.value= "Click if you DARE...";
     }
 })
-   </script> 
-  </div>
- </template>
-  
-<script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
