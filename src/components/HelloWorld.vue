@@ -10,7 +10,7 @@
     <br>
     
     <button id="green">Click for a surprise!</button>
-    <button id="red">Click if you DARE...</button>
+    <button id="dare">Click if you DARE...</button>
     
   </div>
  </template>
@@ -23,6 +23,17 @@ export default {
     msg: String
   }
 }
+
+const btn = document.getElementById("dare");
+btn.addEventListener("click", ()=>{
+
+    if (btn.value === "Click if you DARE..."){
+        btn.value = "Nothing Happened!";
+    } else{
+        btn.value= "Click if you DARE...";
+    }
+})
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -64,7 +75,7 @@ button:hover {
   color: #42b983;
 }
 
-#red {
+#dare {
   color: #bf616a; /*Nord11 - Aurora*/
 }
 
