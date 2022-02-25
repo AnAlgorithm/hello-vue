@@ -9,7 +9,7 @@
     
     <br>
     
-    <button id="green" onclick="startConfetti()">Click for a surprise!</button>
+    <button id="green">Click for a surprise!</button>
     <button id="red">Click if you DARE...</button>
     
     <script>
