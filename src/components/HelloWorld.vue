@@ -46,12 +46,17 @@ a {
 }
 
 button {
-  background-color: #0f0f0f;
+  background-color: #0a0a0a;
   padding: 8px;
   margin: 40px;
   border: 1px solid #f2f2f2;
   border-radius: 5px;
   font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #121212;
 }
 
 #green {
