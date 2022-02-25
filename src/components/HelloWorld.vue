@@ -24,16 +24,6 @@ export default {
   }
 }
 
-const btn = document.getElementById("dare");
-btn.addEventListener("click", ()=>{
-
-    if (btn.value === "Click if you DARE..."){
-        btn.value = "Nothing Happened!";
-    } else{
-        btn.value= "Click if you DARE...";
-    }
-})
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
