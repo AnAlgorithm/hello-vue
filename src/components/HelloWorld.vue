@@ -9,7 +9,7 @@
     
     <br>
     
-    <button id="green">Click for a surprise!</button>
+    <button id="green">Hover for a surprise!</button>
     <button id="dare">Click if you DARE...</button>
     
   </div>
@@ -65,7 +65,7 @@ button:hover {
   color: #42b983;
 }
 
-#green:active {
+#green:hover {
   transition: rotateX(360deg);
   transition-duration: 5s;
 }
