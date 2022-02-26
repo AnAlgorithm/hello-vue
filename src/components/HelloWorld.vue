@@ -1,16 +1,12 @@
 <template>
   <div class="hello">
-  
     <h1>Hello Vue!</h1>
-    
     <p>
       My first Vue.js App!
-    </p>
-    
-    <br>
+    </p> <br>
     
     <button id="green">Hover for a surprise!</button>
-    <button id="dare">Click if you DARE...</button>
+    <button id="dare"><i class="fa fa-circle-o-notch fa-spin"></i> We're working on it...</button>
     
   </div>
  </template>
