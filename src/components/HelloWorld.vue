@@ -6,7 +6,7 @@
     </p> <br>
     
     <button id="green">Hover for a surprise!</button>
-    <button id="dare"><i class="fa fa-circle-o-notch fa-spin"></i> We're working on it...</button>
+    <button id="dare"><i class="fa fa-circle-o-notch fa-spin"></i> We're working on this...</button>
     
   </div>
  </template>
