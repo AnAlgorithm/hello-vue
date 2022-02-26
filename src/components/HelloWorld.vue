@@ -62,7 +62,7 @@ button:hover {
 }
 
 #green:hover {
-  transform: rotateX(360deg);
+  transform: rotate3d(1, 1, 1, 360deg);
   transition-duration: 2s;
 }
 
