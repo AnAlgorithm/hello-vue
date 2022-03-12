@@ -6,7 +6,7 @@
     </p> <br>
     
     <button id="green">Hover for a surprise!</button>
-    <button id="dare"><i class="fa fa-circle-o-notch fa-spin"></i> This does nothing ok?</button>
+    <button id="dare"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Click if you DARE...</a></button>
     
   </div>
  </template>
