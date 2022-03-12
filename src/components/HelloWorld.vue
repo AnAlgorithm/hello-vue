@@ -6,7 +6,7 @@
     </p> <br>
     
     <button id="green">Hover for a surprise!</button>
-    <button id="dare"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Click if you DARE...</a></button>
+    <button id="dare" onclick="document.location='https://www.youtube.com/watch?v=DLzxrzFCyOs'">Click if you DARE...</button>
     
   </div>
  </template>
@@ -40,7 +40,8 @@ li {
 }
 
 a {
-  color: #42b983;
+  color: #bf616a; /*Nord11 - Aurora*/
+  text-decoration: none;
 }
 
 button {
