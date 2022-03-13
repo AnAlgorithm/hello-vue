@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ab575f;
+}
+
 button {
   background-color: #0a0a0a;
   padding: 8px;
