@@ -17,7 +17,7 @@ export default {
 
 <style>
 body {
-  background-color: #2c3e50; /*Nord0 - Polar Night*/
+  background: url('./assets/techbg.png');
 }
 
 #app {
